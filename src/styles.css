@@ -45,3 +45,19 @@ h6 {
 #__next {
   isolation: isolate;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.images {
+  height: 250px;
+  display: flex;
+}
+.frame {
+  height: 270px;
+  border: solid 4px rebeccapurple;
+  width: 350px;
+  overflow: hidden;
+}
