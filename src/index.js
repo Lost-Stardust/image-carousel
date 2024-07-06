@@ -17,3 +17,18 @@ next.addEventListener("click", () => {
   imgNum++;
   imgArr[imgNum].scrollIntoView();
 });
+
+// on button click, cycle through imgs backwards
+
+const prev = document.querySelector(".previous");
+
+prev.addEventListener("click", () => {
+  console.log(imgArr.length);
+  if (imgNum === 0) {
+    imgNum = 3;
+    console.log(imgNum);
+  }
+  console.log(imgNum);
+  imgNum--;
+  imgArr[imgNum].scrollIntoView();
+});
