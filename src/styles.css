@@ -49,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .images {
   height: 100%;
@@ -56,7 +57,26 @@ body {
 }
 .frame {
   height: 270px;
-  border: solid 4px rebeccapurple;
   width: 450px;
   overflow: hidden;
+}
+.dots {
+  margin-top: 15px;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dots > div {
+  height: 15px;
+  width: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
 }
